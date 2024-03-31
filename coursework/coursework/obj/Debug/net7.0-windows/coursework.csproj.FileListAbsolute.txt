@@ -14,3 +14,4 @@ D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-w
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.pdb
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.genruntimeconfig.cache
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\ref\coursework.dll
+D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.Properties.Resources.resources

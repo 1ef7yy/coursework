@@ -17,14 +17,9 @@ namespace coursework
             InitializeComponent();
         }
 
-        private void CartForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
         protected override void OnClosed(EventArgs e)
         {
-            Form1 mainForm = new Form1();
+            MainForm mainForm = new MainForm();
             mainForm.Show();
         }
 

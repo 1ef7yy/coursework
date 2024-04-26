@@ -37,7 +37,6 @@
             ClientSize = new Size(1350, 854);
             Name = "CartForm";
             Text = "CartForm";
-            Load += CartForm_Load;
             ResumeLayout(false);
         }
 

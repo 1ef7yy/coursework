@@ -1,6 +1,6 @@
 ﻿namespace coursework
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,11 +46,14 @@
             // cartButton
             // 
             cartButton.BackgroundImage = Properties.Resources.shopping_cart_1_;
+            cartButton.FlatAppearance.BorderSize = 0;
+            cartButton.FlatStyle = FlatStyle.Flat;
             cartButton.Location = new Point(1931, 22);
             cartButton.Name = "cartButton";
-            cartButton.Size = new Size(53, 50);
+            cartButton.Size = new Size(50, 50);
             cartButton.TabIndex = 1;
             cartButton.Text = "cartButton";
+            cartButton.TextImageRelation = TextImageRelation.ImageAboveText;
             cartButton.UseVisualStyleBackColor = true;
             cartButton.Click += cartButton_Click;
             // 

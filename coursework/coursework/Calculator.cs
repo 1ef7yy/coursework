@@ -13,38 +13,50 @@ namespace coursework
         public string Name;
         public int Price;
     }
+
+
+    public struct Cart
+    {
+        public int userId;
+        public Dictionary<Item, int> items;
+    }
+
+
+
     public class Calculator
     {
-        public List<Item> cart;
-
-
-        public void AddToCart(Item item)
+        public void AddToCart(Cart cart, Item item)
         {
-            cart.Add(item);
-        }
+            Dictionary<Item, int> items = cart.items;
 
-        public void RemoveFromCart(Item item)
-        {
-            cart.Remove(item);
-        }
+            if (items[item] != 0){
+                items[item] += 1;
 
-        public void Clear()
-        {
-            cart.Clear();
-        }
-
-
-        public int getSum()
-        {
-            int sum = 0;
-
-
-            foreach (var item in cart)
-            {
-                sum += item.Price;
             }
+            else
+            {
+                items[item] = 1;
+            }
+        }
 
-            return sum;
+        public void RemoveFromCart(Cart cart, Item item)
+        {
+            cart.items[item] = 0;
+        }
+
+        public void Clear(Cart cart)
+        {
+            foreach (var item in cart.items)
+            {
+                cart.items[item.Key] = 0;
+            }
+        }
+
+
+        public int getSum(Cart cart)
+        {
+
+            return cart.items.Values.Sum();
         }
 
 

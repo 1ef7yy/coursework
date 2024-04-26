@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             pictureBox1 = new PictureBox();
+            cartButton = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -42,12 +43,24 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // cartButton
+            // 
+            cartButton.BackgroundImage = Properties.Resources.shopping_cart_1_;
+            cartButton.Location = new Point(1931, 22);
+            cartButton.Name = "cartButton";
+            cartButton.Size = new Size(53, 50);
+            cartButton.TabIndex = 1;
+            cartButton.Text = "cartButton";
+            cartButton.UseVisualStyleBackColor = true;
+            cartButton.Click += cartButton_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1920, 1080);
+            ClientSize = new Size(2018, 1170);
+            Controls.Add(cartButton);
             Controls.Add(pictureBox1);
             Name = "Form1";
             Text = "DroneApp";
@@ -58,5 +71,6 @@
         #endregion
 
         private PictureBox pictureBox1;
+        private Button cartButton;
     }
 }

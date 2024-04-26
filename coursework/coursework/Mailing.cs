@@ -10,6 +10,6 @@ namespace coursework
 {
     internal class Mailing
     {
-        const 
+        
     }
 }

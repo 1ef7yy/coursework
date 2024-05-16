@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace coursework
 {
-    internal class env_variables
+    public static class User
     {
-        const string CLIENT_ID = "";
-        const string API_KEY = "";
+        public static string name;
+        public static string phone;
+        public static string address;
     }
+
 }

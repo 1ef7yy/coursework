@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace coursework
+﻿namespace coursework
 {
 
     public struct Item
@@ -19,19 +13,24 @@ namespace coursework
     {
         public int userId;
         public Dictionary<Item, int> items;
-    }
 
-
-
-    public class Calculator
-    {
-        public void AddToCart(Cart cart, Item item)
+        public Cart Init(Item[] initItems)
         {
-            Dictionary<Item, int> items = cart.items;
+            foreach (var item in initItems)
+            {
+                items[item] = 0;
+            }
 
-            if (items[item] != 0){
+            return this;
+        }
+
+
+        public void Add(Item item)
+        {
+
+            if (items[item] != 0)
+            {
                 items[item] += 1;
-
             }
             else
             {
@@ -39,28 +38,40 @@ namespace coursework
             }
         }
 
-        public void RemoveFromCart(Cart cart, Item item)
+
+        public void Remove(Item item)
         {
-            cart.items[item] = 0;
+            items[item] = 0;
         }
 
-        public void Clear(Cart cart)
+
+        public void Clear()
         {
-            foreach (var item in cart.items)
+            foreach (var item in items)
             {
-                cart.items[item.Key] = 0;
+                items[item.Key] = 0;
             }
         }
 
 
-        public int getSum(Cart cart)
-        {
 
-            return cart.items.Values.Sum();
+        public int getSum()
+        {
+            return items.Values.Sum();
         }
+    }
+
+
+
+    public class Calculator
+    {
+
+
+
+
 
 
     }
 
-    
+
 }

@@ -34,6 +34,9 @@
             consentBox = new CheckBox();
             usernameInput = new TextBox();
             loginLabel = new Label();
+            progressBar = new ProgressBar();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // submitButton
@@ -91,11 +94,30 @@
             loginLabel.TabIndex = 5;
             loginLabel.Text = "Вход";
             // 
+            // progressBar
+            // 
+            progressBar.Location = new Point(672, 833);
+            progressBar.Name = "progressBar";
+            progressBar.Size = new Size(579, 54);
+            progressBar.TabIndex = 6;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.trans_logo_black_resized;
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(236, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 7;
+            pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1894, 1009);
+            Controls.Add(pictureBox1);
+            Controls.Add(progressBar);
             Controls.Add(loginLabel);
             Controls.Add(usernameInput);
             Controls.Add(consentBox);
@@ -103,7 +125,8 @@
             Controls.Add(phoneInput);
             Controls.Add(submitButton);
             Name = "Login";
-            Text = "Login";
+            Text = "Вход";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -116,5 +139,7 @@
         private CheckBox consentBox;
         private TextBox usernameInput;
         private Label loginLabel;
+        private ProgressBar progressBar;
+        private PictureBox pictureBox1;
     }
 }

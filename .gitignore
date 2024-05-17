@@ -7,3 +7,5 @@
 *.v2
 *.cache
 /coursework/coursework/bin
+coursework/coursework/testing.cs
+coursework/coursework/secrets.cs

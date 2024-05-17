@@ -235,7 +235,7 @@
             Controls.Add(cartButton);
             Controls.Add(pictureBox1);
             Name = "MainForm";
-            Text = "DroneApp";
+            Text = "Каталог";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)picturePears).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureOreshki).EndInit();

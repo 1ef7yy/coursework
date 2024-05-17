@@ -1,6 +1,6 @@
 ﻿namespace coursework
 {
-    partial class CartForm
+    partial class Корзина
     {
         /// <summary>
         /// Required designer variable.
@@ -32,7 +32,6 @@
             cartSum = new Label();
             timeSelect = new ComboBox();
             label1 = new Label();
-            button1 = new Button();
             orderBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -73,13 +72,6 @@
             label1.TabIndex = 4;
             label1.Text = "Выберите время доставки:";
             // 
-            // button1
-            // 
-            button1.Location = new Point(0, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            // 
             // orderBtn
             // 
             orderBtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
@@ -91,18 +83,17 @@
             orderBtn.UseVisualStyleBackColor = true;
             orderBtn.Click += orderBtn_Click;
             // 
-            // CartForm
+            // Корзина
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1350, 854);
             Controls.Add(orderBtn);
-            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(timeSelect);
             Controls.Add(cartSum);
             Controls.Add(pictureBox1);
-            Name = "CartForm";
+            Name = "Корзина";
             Text = "CartForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -115,7 +106,6 @@
         private Label cartSum;
         private ComboBox timeSelect;
         private Label label1;
-        private Button button1;
         private Button orderBtn;
     }
 }

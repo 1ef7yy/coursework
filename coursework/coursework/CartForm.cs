@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace coursework
 {
-    public partial class CartForm : Form
+    public partial class Корзина : Form
     {
-        public CartForm()
+        public Корзина()
         {
 
             InitializeComponent();
@@ -30,7 +30,7 @@ namespace coursework
 
         private void orderBtn_Click(object sender, EventArgs e)
         {
-            string mail_text =  $"""
+            string mail_text = $"""
                 У вас новый заказ от {User.name} по адресу {User.address}
                 Номер для связи: {User.phone}
 

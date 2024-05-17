@@ -18,7 +18,6 @@ D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-w
 D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-windows\RestSharp.dll
 D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-windows\System.Management.dll
 D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
-D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.CartForm.resources
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.csproj.CopyComplete
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.dll
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\refint\coursework.dll
@@ -27,3 +26,4 @@ D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-w
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\ref\coursework.dll
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.MainForm.resources
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.Login.resources
+D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.Корзина.resources

@@ -125,7 +125,7 @@
             Controls.Add(phoneInput);
             Controls.Add(submitButton);
             Name = "Login";
-            Text = "Login";
+            Text = "Вход";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

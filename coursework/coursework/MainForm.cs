@@ -26,13 +26,13 @@
             Cart.items.Add(water);
             Cart.items.Add(oreshki);
 
-            int sum = Cart.items.Sum(x => Convert.ToInt32(x.Price*x.Amount));
-            
+            int sum = Cart.items.Sum(x => Convert.ToInt32(x.Price * x.Amount));
+
             Cart.sum = sum;
 
 
 
-            CartForm cartForm = new CartForm();
+            Корзина cartForm = new Корзина();
             cartForm.Show();
 
             this.Hide();

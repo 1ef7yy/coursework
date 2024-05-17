@@ -3,71 +3,50 @@
 
     public struct Item
     {
-        public int Id;
         public string Name;
         public int Price;
+        public int Amount;
+        
+        public Item(string name, int price, int amount)
+        {
+            Name = name;
+            Price = price;
+            Amount = amount;
+
+        }
     }
 
+    
 
-    public struct Cart
+
+    public static class Cart
     {
-        public int userId;
-        public Dictionary<Item, int> items;
+        public static List<Item> items = new List<Item>();
+        public static int sum = 0;
 
-        public Cart Init(Item[] initItems)
-        {
-            foreach (var item in initItems)
-            {
-                items[item] = 0;
-            }
+        public static Dictionary<string, int> Prices = new Dictionary<string, int>{
 
-            return this;
-        }
+            { "beef", 1000},
+            { "eggs", 150},
+            {"oreshki", 250 },
+            {"pear", 120 },
+            {"water", 105 }
 
-
-        public void Add(Item item)
-        {
-
-            if (items[item] != 0)
-            {
-                items[item] += 1;
-            }
-            else
-            {
-                items[item] = 1;
-            }
-        }
-
-
-        public void Remove(Item item)
-        {
-            items[item] = 0;
-        }
-
-
-        public void Clear()
-        {
-            foreach (var item in items)
-            {
-                items[item.Key] = 0;
-            }
-        }
-
-
-
-        public int getSum()
-        {
-            return items.Values.Sum();
-        }
+    };
     }
 
 
 
     public class Calculator
     {
+        
 
 
-
+        public int getSum()
+        {
+            Cart.sum = Cart.items.Sum(x => Convert.ToInt32(x.Price));
+            return Cart.sum;
+        }
 
 
 

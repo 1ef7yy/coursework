@@ -1,0 +1,11 @@
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\bin\Debug\net7.0\mailHandler.deps.json
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\bin\Debug\net7.0\mailHandler.dll
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\bin\Debug\net7.0\mailHandler.pdb
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.GeneratedMSBuildEditorConfig.editorconfig
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.AssemblyInfoInputs.cache
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.AssemblyInfo.cs
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.csproj.CoreCompileInputs.cache
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.dll
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\refint\mailHandler.dll
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\mailHandler.pdb
+D:\vuz\coursework\first-year\coursework\coursework\mailHandler\obj\Debug\net7.0\ref\mailHandler.dll

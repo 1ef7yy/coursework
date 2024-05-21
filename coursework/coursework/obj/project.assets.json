@@ -179,6 +179,16 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "mailHandler/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/mailHandler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/mailHandler.dll": {}
+        }
       }
     }
   },
@@ -477,12 +487,18 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "mailHandler/1.0.0": {
+      "type": "project",
+      "path": "../mailHandler/mailHandler.csproj",
+      "msbuildProject": "../mailHandler/mailHandler.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0-windows7.0": [
       "Google.Apis.Gmail.v1 >= 1.67.0.3287",
-      "RestSharp >= 110.2.0"
+      "RestSharp >= 110.2.0",
+      "mailHandler >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -516,7 +532,11 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\vuz\\coursework\\first-year\\coursework\\coursework\\mailHandler\\mailHandler.csproj": {
+              "projectPath": "D:\\vuz\\coursework\\first-year\\coursework\\coursework\\mailHandler\\mailHandler.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -27,3 +27,5 @@ D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-w
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.MainForm.resources
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.Login.resources
 D:\vuz\coursework\first-year\coursework\coursework\coursework\obj\Debug\net7.0-windows\coursework.Корзина.resources
+D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-windows\mailHandler.dll
+D:\vuz\coursework\first-year\coursework\coursework\coursework\bin\Debug\net7.0-windows\mailHandler.pdb

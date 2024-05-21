@@ -1,10 +1,7 @@
-﻿using System;
-using System.Net;
-using System.IO;
-using System.Threading.Tasks;
+﻿using System.Net;
 using System.Net.Mail;
 
-namespace coursework
+namespace mailHandler
 {
     public class MailHandler
     {

@@ -94,7 +94,7 @@
             Controls.Add(cartSum);
             Controls.Add(pictureBox1);
             Name = "Корзина";
-            Text = "CartForm";
+            Text = " ";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
